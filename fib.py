@@ -1,4 +1,5 @@
-def fib(nun, memo = {}):
+# fib mit rekrusion
+def fib(num, memo = {}):
     if num in memo:
         return memo[num]
     elif num <= 2:
@@ -7,5 +8,14 @@ def fib(nun, memo = {}):
         memo[num] = fib(num-1, memo)+fib(num-2, memo)
         return memo[num]
         
-for i in range(1, 100):
+# fib normal
+def Fib(num): 
+    a, b = 0, 1
+    for i in range(0, num):
+        a, b = b, a + b
+    return a
+
+
+for i in range(10):
+    print(Fib(i))
     print(fib(i))

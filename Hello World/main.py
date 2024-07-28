@@ -14,7 +14,7 @@ def output(text):
         while text[i] != alphapeth[x]:
             print("".join(output) + str(alphapeth[x]))
             x += 1
-            time.sleep(0.08)
+            time.sleep(0.05)
         print("".join(output) + str(alphapeth[x]))
         output.append(alphapeth[x])
     frame("".join(output), "#")

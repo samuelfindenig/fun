@@ -8,7 +8,7 @@ def fib(num, memo = {}):
         memo[num] = fib(num-1, memo)+fib(num-2, memo)
         return memo[num]
         
-# fib normal
+# fib iterativ
 def Fib(num): 
     a, b = 0, 1
     for i in range(0, num):

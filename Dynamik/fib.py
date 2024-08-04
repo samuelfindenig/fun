@@ -16,6 +16,3 @@ def Fib(num):
     return a
 
 
-for i in range(10):
-    print(Fib(i))
-    print(fib(i))

@@ -1,4 +1,4 @@
-# fib mit rekrusion
+# fib mit rekursion
 def fib(num, memo = {}):
     if num in memo:
         return memo[num]
